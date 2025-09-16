@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <style>
+    body { font-family: Arial; background: #f5f5f5; padding: 20px; }
+    #user-form { margin-bottom: 20px; }
+    ul { list-style: none; padding: 0; }
+    li { background: #fff; margin: 5px 0; padding: 10px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; }
+    button { margin-left: 10px; cursor: pointer; }
+    .admin { background: #ffe4b5; }
+  </style>
+</head>
+<body>
+
+    <hi>Practice session with OOP & DOM </hi>
+  <h1>User Management System</h1>
+  <form id="user-form">
+    <input type="text" id="name" placeholder="Enter name" required>
+    <input type="email" id="email" placeholder="Enter email" required>
+    <select id="role">
+      <option value="user">User</option>
+      <option value="admin">Admin</option>
+    </select>
+    <button type="submit">Add User</button>
+  </form>
+
+  <ul id="user-list"></ul>
+
+
+  
+  <script src="object.js"></script>
+</body>
+</html>
